@@ -13,9 +13,17 @@
 		2D2455521D21710400684F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2455501D21710400684F64 /* Main.storyboard */; };
 		2D2455541D21710400684F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2455531D21710400684F64 /* Assets.xcassets */; };
 		2D2455571D21710400684F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2455551D21710400684F64 /* LaunchScreen.storyboard */; };
+		2D2455611D2172F200684F64 /* BasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2455601D2172F200684F64 /* BasicAnimationViewController.m */; };
+		2D2455641D2174AB00684F64 /* SpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2455631D2174AB00684F64 /* SpringAnimationViewController.m */; };
+		2D2455671D21756100684F64 /* DecayAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2455661D21756100684F64 /* DecayAnimationViewController.m */; };
+		2D24556A1D21794700684F64 /* PropertyAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2455691D21794700684F64 /* PropertyAnimationViewController.m */; };
+		B3CED68C6285DBA2061E9F3E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A6F266E9AB8903976EE291 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0011FFBCD1BFA7580F5A6651 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		0E6102BA7F4B6CDC022BAE26 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		24A6F266E9AB8903976EE291 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2455441D21710400684F64 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D2455481D21710400684F64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2D24554A1D21710400684F64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,14 @@
 		2D2455531D21710400684F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D2455561D21710400684F64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D2455581D21710400684F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D24555F1D2172F200684F64 /* BasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimationViewController.h; sourceTree = "<group>"; };
+		2D2455601D2172F200684F64 /* BasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationViewController.m; sourceTree = "<group>"; };
+		2D2455621D2174AB00684F64 /* SpringAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAnimationViewController.h; sourceTree = "<group>"; };
+		2D2455631D2174AB00684F64 /* SpringAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAnimationViewController.m; sourceTree = "<group>"; };
+		2D2455651D21756100684F64 /* DecayAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecayAnimationViewController.h; sourceTree = "<group>"; };
+		2D2455661D21756100684F64 /* DecayAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecayAnimationViewController.m; sourceTree = "<group>"; };
+		2D2455681D21794700684F64 /* PropertyAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyAnimationViewController.h; sourceTree = "<group>"; };
+		2D2455691D21794700684F64 /* PropertyAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyAnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3CED68C6285DBA2061E9F3E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +61,8 @@
 			children = (
 				2D2455461D21710400684F64 /* Animation */,
 				2D2455451D21710400684F64 /* Products */,
+				BA9C58AE43A2AB409D71F3B5 /* Pods */,
+				9701F9642200A2805F543A83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +79,7 @@
 			children = (
 				2D24554A1D21710400684F64 /* AppDelegate.h */,
 				2D24554B1D21710400684F64 /* AppDelegate.m */,
-				2D24554D1D21710400684F64 /* ViewController.h */,
-				2D24554E1D21710400684F64 /* ViewController.m */,
+				2D24555E1D2172BC00684F64 /* ViewControllers */,
 				2D2455501D21710400684F64 /* Main.storyboard */,
 				2D2455531D21710400684F64 /* Assets.xcassets */,
 				2D2455551D21710400684F64 /* LaunchScreen.storyboard */,
@@ -79,6 +97,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2D24555E1D2172BC00684F64 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D24554D1D21710400684F64 /* ViewController.h */,
+				2D24554E1D21710400684F64 /* ViewController.m */,
+				2D24555F1D2172F200684F64 /* BasicAnimationViewController.h */,
+				2D2455601D2172F200684F64 /* BasicAnimationViewController.m */,
+				2D2455621D2174AB00684F64 /* SpringAnimationViewController.h */,
+				2D2455631D2174AB00684F64 /* SpringAnimationViewController.m */,
+				2D2455651D21756100684F64 /* DecayAnimationViewController.h */,
+				2D2455661D21756100684F64 /* DecayAnimationViewController.m */,
+				2D2455681D21794700684F64 /* PropertyAnimationViewController.h */,
+				2D2455691D21794700684F64 /* PropertyAnimationViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9701F9642200A2805F543A83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24A6F266E9AB8903976EE291 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA9C58AE43A2AB409D71F3B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0011FFBCD1BFA7580F5A6651 /* Pods.debug.xcconfig */,
+				0E6102BA7F4B6CDC022BAE26 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D24555B1D21710400684F64 /* Build configuration list for PBXNativeTarget "Animation" */;
 			buildPhases = (
+				6A2CEB93A3EAE6B7BAE8EFC4 /* Check Pods Manifest.lock */,
 				2D2455401D21710400684F64 /* Sources */,
 				2D2455411D21710400684F64 /* Frameworks */,
 				2D2455421D21710400684F64 /* Resources */,
+				1EF6E0825D7EBAB73151CE45 /* Embed Pods Frameworks */,
+				336EA74E80578939E3B98EC5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,13 +199,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1EF6E0825D7EBAB73151CE45 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		336EA74E80578939E3B98EC5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A2CEB93A3EAE6B7BAE8EFC4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D2455401D21710400684F64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D24556A1D21794700684F64 /* PropertyAnimationViewController.m in Sources */,
+				2D2455671D21756100684F64 /* DecayAnimationViewController.m in Sources */,
 				2D24554F1D21710400684F64 /* ViewController.m in Sources */,
 				2D24554C1D21710400684F64 /* AppDelegate.m in Sources */,
+				2D2455641D2174AB00684F64 /* SpringAnimationViewController.m in Sources */,
+				2D2455611D2172F200684F64 /* BasicAnimationViewController.m in Sources */,
 				2D2455491D21710400684F64 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +366,7 @@
 		};
 		2D24555C1D21710400684F64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0011FFBCD1BFA7580F5A6651 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Animation/Info.plist;
@@ -270,6 +378,7 @@
 		};
 		2D24555D1D21710400684F64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E6102BA7F4B6CDC022BAE26 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Animation/Info.plist;
@@ -298,6 +407,7 @@
 				2D24555D1D21710400684F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
